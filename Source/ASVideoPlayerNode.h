@@ -9,8 +9,6 @@
 
 #import "ASAvailability.h"
 
-#if AS_USE_VIDEO
-
 #if TARGET_OS_IOS
 #import <CoreMedia/CoreMedia.h>
 #import "ASThread.h"
@@ -221,5 +219,3 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 NS_ASSUME_NONNULL_END
 #endif  // TARGET_OS_IOS
-
-#endif

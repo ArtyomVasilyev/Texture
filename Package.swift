@@ -26,9 +26,7 @@ let sharedDefines: [CSetting] =
     .define("AS_PIN_REMOTE_IMAGE", to: "1"),
     
     // always disabled
-    .define("IG_LIST_COLLECTION_VIEW", to: "0"),
-    
-    .define("AS_USE_VIDEO", to: "1"),
+    .define("IG_LIST_COLLECTION_VIEW", to: "0")
 ]
 
 func IGListKit(enabled: Bool) -> [CSetting] {
